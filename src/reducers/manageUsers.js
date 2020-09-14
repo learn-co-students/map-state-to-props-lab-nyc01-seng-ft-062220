@@ -1,5 +1,5 @@
 export default function manageUsers(state = {
-  users: [],
+  users: [ {username: 'Spiderman', hometown: 'New York City'} ],
 }, action){
   switch (action.type) {
     case 'ADD_USER':
